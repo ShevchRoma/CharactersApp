@@ -1,0 +1,12 @@
+.character {
+    display: inherit;
+    &__name,
+    &__species,
+    &__gender,
+    &__status,
+    &__location,
+    &__created {
+        font-weight: bold;
+        margin: 10px 0;
+    }
+}

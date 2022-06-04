@@ -1,0 +1,40 @@
+.character {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__item {
+        border: 1px solid rgb(185, 182, 182);
+        border-radius: 10px;
+        font-family: "Trebuchet MS", sans-serif;
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 10px;
+        display: flex;
+        margin: 10px 0;
+        width: 100%;
+        p {
+            margin: 0 5px;
+        }
+    }
+    &__like {
+        display: flex;
+    }
+    .like {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 8px;
+        border-radius: 10px;
+        margin: 5px;
+        color: blue;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        align-self: center;
+        cursor: pointer;
+        max-width: 70px;
+        &:hover {
+            background: blue;
+            color: #fff;
+            box-shadow: none;
+        }
+    }
+}
